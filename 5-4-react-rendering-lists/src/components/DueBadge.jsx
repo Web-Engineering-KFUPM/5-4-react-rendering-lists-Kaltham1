@@ -37,5 +37,5 @@ export default function DueBadge({ dueDate }) {
     label = `Due in ${d} days`;
   }
 
-  return <span className="badge">Label here</span>;
+  return <span className="badge">OverDue</span>;
 }
